@@ -1,0 +1,6 @@
+InputRedirect: [input.txt]
+OutputRedirect: [output.txt]
+Background: [0]
+ArgumentCount: [2]
+ArgumentVector[ 0]: [kjh]
+ArgumentVector[ 1]: [fds]

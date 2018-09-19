@@ -20,4 +20,6 @@ void parseParams(Param_t *param, char *input);
 
 Param_t *initParam();
 
+void executeShell(Param_t *param);
+
 #endif

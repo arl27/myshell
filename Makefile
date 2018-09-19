@@ -1,17 +1,17 @@
 CFLAGS = -g -Wall 
 CC = gcc
 
-objects = shell.o parse.o
+objects = myshell.o parse.o
 
-shell: $(objects)
-	$(CC) -o shell $(objects)
-
-
+myshell: $(objects)
+	$(CC) -o myshell $(objects)
 
 
-shell.o: shell.c parse.h
+
+
+myshell.o: myshell.c parse.h
 parse.o: parse.c parse.h
 
 .PHONY : clean
 clean: 
-	rm $(objects)
+	rm $(objects) myshell
