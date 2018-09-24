@@ -10,7 +10,6 @@ int main ( int argc, char **argv )
     Param_t *param = initParam();   
     //input is the buffer to hold all user input
     char input[256];
-    char *reset
   
     while (1){
       //Prompt for user input and write into the input buffer
